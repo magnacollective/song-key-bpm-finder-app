@@ -6,7 +6,6 @@ import SearchInput from '../../components/SearchInput'
 import { gtag, install } from 'ga-gtag';
 import { useEffect, useState } from 'react'
 import {  PianoOutlined } from '@mui/icons-material';
-import logo2 from '../../../public/logo2.jpg'
 import ArtistDetails from '../../components/ArtistDetails'
 import { useRouter } from 'next/router'
 import UploadTrack from '../../components/UploadTrack'
@@ -84,7 +83,7 @@ export default function Home({artistData}) {
           />
       </Head>
       <main lang="en" className={styles.main}>
-      <img src={logo2} />
+      <img src="/logo2.jpg" alt="logo" />
         <h1 className={styles.title}>
             Song key bpm finder
         </h1>
