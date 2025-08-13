@@ -6,7 +6,6 @@ import { Alert, Backdrop, Box, Chip, CircularProgress, Divider, Snackbar } from 
 import TrackSkeleton from './TrackSkeleton';
 import { useRouter } from 'next/router';
 import TrackCard from './TrackCard';
-import Image from 'next/image';
 import { Player } from 'react-simple-player';
 
 export default function ArtistDetails({ artistData }) {

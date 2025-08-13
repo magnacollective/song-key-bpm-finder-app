@@ -7,7 +7,6 @@ import { gtag, install } from 'ga-gtag';
 import { useEffect, useState } from 'react'
 import {  PianoOutlined } from '@mui/icons-material';
 import logo2 from '../../public/logo2.jpg'
-import Image from 'next/image'
 import TrackDetails from '../components/TrackDetails'
 import { useRouter } from 'next/router'
 import TrackSkeleton from '../components/TrackSkeleton'

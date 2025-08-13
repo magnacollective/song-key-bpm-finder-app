@@ -12,7 +12,6 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import Header from '../components/Header'
 import dynamic from 'next/dynamic'
 import {Player} from 'react-simple-player';
-import Image from 'next/image';
 
 const SpotifyWebPlayer = dynamic(() => import('react-spotify-web-playback'), {
   loading: () => 'Loading...',

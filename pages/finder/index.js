@@ -11,7 +11,6 @@ import UploadTrack from '../components/UploadTrack'
 import Header from '../components/Header'
 import SearchIcon from '@mui/icons-material/Search';
 import TrackCard from '../components/TrackCard'
-import Image from 'next/image'
 import { Player } from 'react-simple-player'
 
 export default function Search() {

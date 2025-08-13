@@ -9,7 +9,6 @@ import styles from '../../styles/Home.module.css'
 import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
 import { getSongKeyTitle, msToTime } from './SearchInput';
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 import ShareURL from './ShareURL';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 

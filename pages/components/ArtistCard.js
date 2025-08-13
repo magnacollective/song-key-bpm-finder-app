@@ -10,7 +10,6 @@ import styles from '../../styles/Home.module.css'
 import PlayCircleFilledWhiteIcon from '@mui/icons-material/PlayCircleFilledWhite';
 import { getSongKeyTitle, msToTime } from './SearchInput';
 import { useRouter } from 'next/router';
-import Image from 'next/image';
 
 export default function ArtistCard({artistData}) {
     const router = useRouter();
