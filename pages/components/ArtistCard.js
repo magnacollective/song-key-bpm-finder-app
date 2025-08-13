@@ -31,7 +31,7 @@ export default function ArtistCard({artistData}) {
             <CardContent style={{width: '100% !important', paddingBottom: '16px !important'}}>
                 <Grid container spacing={2}>
                     <Grid item sm={4} xs={12}>
-                        <Image unoptimized  alt={artist.artists && artist.artists[0].name+' - '+artist.name} width={220} height={220} src={artist.images && artist.images[0].url} />
+                        <img unoptimized  alt={artist.artists && artist.artists[0].name+' - '+artist.name} width={220} height={220} src={artist.images && artist.images[0].url} />
                     </Grid>
                     <Grid item md={6} mt={6} xs={12} sm={6}>
                         <Typography className={styles.artistTitle} style={{width: '100%', marginTop: '0px !important'}}  variant="h5" component="div" noWrap>

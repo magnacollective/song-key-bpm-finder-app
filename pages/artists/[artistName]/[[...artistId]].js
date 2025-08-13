@@ -84,7 +84,7 @@ export default function Home({artistData}) {
           />
       </Head>
       <main lang="en" className={styles.main}>
-      <Image src={logo2} />
+      <img src={logo2} />
         <h1 className={styles.title}>
             Song key bpm finder
         </h1>
