@@ -21,6 +21,7 @@ module.exports = {
     ]
   },
   images: {
+    unoptimized: true,
     domains: ['i.scdn.co'],
     remotePatterns: [
       {
